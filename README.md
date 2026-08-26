@@ -65,4 +65,4 @@ uv run data/download.py
 ```
 
 By default this downloads the latest 5 10-K filings for AAPL, MSFT, NVDA, AMZN, and GOOGL into year folders under `data/downloads/` and writes a `manifest.json`.
-Downloaded files are gitignored; the `data/` folder itself stays in git for the script and notes.
+Downloaded files are gitignored; the `data/` folder itself stays in git for the script and  notes.
