@@ -27,9 +27,7 @@ An internal AI chatbot that lets analysts query a corpus of documents in plain E
 document-copilot/
 ├── AGENTS.md           # agent instructions (read first)
 ├── README.md           # this file
-├── data/               # local corpus + download script (payloads gitignored)
-├── docs/
-│   └── client-brief.md # the client one-pager
+├── data/               # local corpus + download script (payloads gitignored) 
 ├── backend/            # FastAPI service
 └── frontend/           # React SPA (Vite)
 ```
