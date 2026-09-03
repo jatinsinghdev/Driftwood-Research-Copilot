@@ -4,9 +4,9 @@ An internal AI chatbot that lets analysts query a corpus of documents in plain E
 
 ## The client
 
-**Driftwood Capital** — fictional independent investment research firm. Their analysts spend half their week reading 10-Ks and 10-Qs before they can produce any original analysis. Document Copilot eats that intake work so they can skip straight to insight.
+ Independent investment research firm. Their analysts spend half their week reading 10-Ks and 10-Qs before they can produce any original analysis. Document Copilot eats that intake work so they can skip straight to insight.
 
-Full brief: [docs/client-brief.md](docs/client-brief.md)
+
 
 ## Stack
 
@@ -66,3 +66,4 @@ uv run data/download.py
 
 By default this downloads the latest 5 10-K filings for AAPL, MSFT, NVDA, AMZN, and GOOGL into year folders under `data/downloads/` and writes a `manifest.json`.
 Downloaded files are gitignored; the `data/` folder itself stays in git for the script and  notes.
+
